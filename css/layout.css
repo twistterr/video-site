@@ -1,0 +1,30 @@
+main,
+header,
+footer {
+  margin-bottom: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/*grids*/
+.grid_1-1-1{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3em;
+}
+.grid_3-3{
+  display: grid;
+  grid-template-columns:3fr 3fr;
+  gap: 3em;
+}
+.grid_2-2{
+  display: grid;
+  grid-template-columns:2fr 2fr;
+  gap: 1%;
+}
+.grid_3-1{
+    display: grid;
+    grid-template-columns:3fr 1fr;
+    gap: 1%;
+  }
+

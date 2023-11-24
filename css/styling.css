@@ -1,0 +1,62 @@
+iframe{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#iframe-wrapper{
+    position: relative;
+    width: 100%;
+    height: 32%;
+
+    padding-top: 56.25%;
+}
+
+img{
+    width: 100%;
+	height: 100%;
+}
+body{
+    background-color: #fde29f
+}
+
+p{
+    font-family: "Yusei Magic", serif;
+}
+
+h1, h2{
+    font-family: "Yusei Magic", serif;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #eeba30;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .topnav{
+    background-color: #ae0001;
+    overflow: hidden;
+    font-family: "Yusei Magic", serif;
+  }
+  .topnav a:hover {
+    background-color: #e30909;
+    color: #eeba30;
+  }
+ 
+  .topnav a.active {
+    background-color: #740001;
+    color: #eeba30;
+  }
+
+  /*footer*/
+  footer{
+    opacity: 35%;
+  }
+
+  a{
+    font-family: "Yusei Magic", serif;
+  }
